@@ -24,3 +24,10 @@ Run the script using spotify_dl. spotify_dl accepts different parameters, for mo
 For most users spotify_dl -l spotify_playlist_link -o download_directory should do where
 
 spotify_playlist_link is a link to Spotify's playlist. You can get it from the 3-dot menu.
+
+Alternatively, spotify_dl -p playlist_id -u user_name -o download_directory will also work
+
+playlist_id is the id of the playlist where songs need to be downloaded. If this is skipped then it will download songs ftom your "My Music" collection
+user_name is the user name who created the playlist.
+download_directory is the location where the songs must be downloaded to.
+A first time run will require authentication; you will need to click on the URL prompted to authenticate. Once logged in, paste the URL back in.
